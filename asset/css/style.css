@@ -1,0 +1,66 @@
+.row {
+    margin-top: 16px;
+}
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-fifth {
+    float: left;
+    /* padding: 0 2px; */
+    width: 20%;
+}
+.btn {
+    display: block
+}
+.mt16 {
+    margin-top: 16px;
+}
+.mt32 {
+    margin-top: 32px;
+}
+/* main */
+#main {
+    display: flex;
+}
+
+#caculator {
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid #000;
+    height: 380px;
+    width: 300px;
+    background-color: #ccc;
+    position: relative;
+    text-align: center;
+}
+
+#caculator .monitor {
+    margin: 15px auto;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+}
+
+.monitor .panel {
+    text-align: right;
+    margin: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background-color: aliceblue;
+    
+}
+
+#caculator .key-board {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#caculator .key-board button{
+    height: 40px;
+    width: 45px;
+}
